@@ -15,7 +15,7 @@ import { MapComponent } from './map/map.component';
   ],
   imports: [
     BrowserModule,
-    AgmCoreModule.forRoot({ apiKey: 'AIzaSyAaC2njc64M18Md2LzV0AA_Tn-XrFxNwPA' }),
+    AgmCoreModule.forRoot({ apiKey: '<your_api_key_for_google_maps>' }),
     AgmDirectionModule,
     FormsModule,
     NgbModule.forRoot()
